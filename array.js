@@ -29,3 +29,38 @@ console.log(array3);
 // let combine = [...array, 100, 12]
 
 // console.log(combine)
+
+// ES6 Loops
+for (let i = 0; i < array.length; i++) {
+  console.log(`Currently looping on index ${i}, with value ${array[i]}`);
+}
+
+const newArray = array.map((value, index) =>
+  console.log(`Currently looping on index ${index}, with value ${value}`)
+);
+
+const filtredArr = array.filter((value) => value > 20);
+console.log("filtredArr: ", filtredArr);
+
+// Calculer l'age moyen des étudiants
+let students = [
+  { name: "Ahmed", age: 27 },
+  { name: "Abbas", age: 22 },
+  { name: "Aly", age: 29 },
+  { name: "Ahmed", age: 28 },
+  { name: "Kareem", age: 35 },
+];
+
+const moyenne = students.reduce((accumulateur, elementActuel, index) => {
+  console.log(
+    `Nous sommes à l'itération ${index}, la valeur de l'accumulateur est ${accumulateur} et l'age de l'étudiant actuel est ${
+      elementActuel.age
+    }, total :${accumulateur + elementActuel.age}`
+  );
+  return accumulateur + elementActuel.age;
+}, 0);
+
+console.log(
+  "Moyenne d'age des étudiants est : ",
+  Math.floor(moyenne / students.length)
+);

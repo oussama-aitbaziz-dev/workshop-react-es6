@@ -1,22 +1,10 @@
-/**
- * variables
- */
-function testVar() {
-  // var x
-  var x = 10;
-  // var x =15
+let student = [];
 
-  if (true) {
-    var x = 11;
-    console.log('in block : ' + x);
-  }
+student.name = "Sophia";
 
-  // function test() {
-  //   var x = 12;
-  // }
+let student = {
+  name: "Sophia",
+  passion: "Code",
+};
 
-  console.log(x);
-  //  x = 50;
-}
-
-testVar();
+console.log(student);

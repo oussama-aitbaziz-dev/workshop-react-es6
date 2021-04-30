@@ -18,11 +18,11 @@
 // Example 2
 // ---------
 let people = [
-  { name: 'Ahmed', age: 27 },
-  { name: 'Abbas', age: 22 },
-  { name: 'Aly', age: 29 },
-  { name: 'Ahmed', age: 28 },
-  { name: 'Kareem', age: 35 },
+  { name: "Ahmed", age: 27 },
+  { name: "Abbas", age: 22 },
+  { name: "Aly", age: 29 },
+  { name: "Ahmed", age: 28 },
+  { name: "Kareem", age: 35 },
 ];
 
 // // Task:
@@ -47,7 +47,7 @@ let people = [
 // // arrow function version
 let ageSum = people
   .filter((person) => person.age > 25 && person.age < 30)
-  .filter((person) => person.name === 'Ahmed')
+  .filter((person) => person.name === "Ahmed")
   .map((person) => person.age)
   .reduce((prev, curr) => (prev || 0) + curr);
 

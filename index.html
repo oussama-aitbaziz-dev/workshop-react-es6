@@ -1,119 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <title>JS Intro</title>
-  </head>
 
-  <body class="container">
-    <h2 class="text-center bg-warning p-5">JS Intro</h2>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <title>JS Intro</title>
+</head>
 
-    <!-- ACCORDION -->
-    <div class="accordion" id="accordionExample">
-      <!-- CARD -->
-      <div class="card">
-        <div class="card-header" id="headingOne">
-          <h2 class="mb-0">
-            <button
-              class="btn btn-link"
-              type="button"
-              data-toggle="collapse"
-              data-target="#collapseOne"
-              aria-expanded="false"
-              aria-controls="collapseOne"
-            >
-              WHAT IS JAVASCRIPT ?
-            </button>
-          </h2>
-        </div>
+<body class="container">
+  <h2 class="text-center bg-warning p-5">JS Intro</h2>
 
-        <div
-          id="collapseOne"
-          class="collapse show"
-          aria-labelledby="headingOne"
-          data-parent="#accordionExample"
-        >
-          <div class="card-body">
-            <ul>
-              <li>High level, Interpreted Programming Language</li>
-              <li>
-                Conforms to the ECMAScript specification (ActionScript,
-                JavaScript, JScript)
-              </li>
-              <li>
-                Runs on the Client/Browser ((as well as on the server
-                (Node.js)))
-              </li>
-            </ul>
-
-            <img
-              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F2.bp.blogspot.com%2F-cJrZfbVrH-0%2FWtT7O9CyTEI%2FAAAAAAAAGZw%2FznD9Yxlf5VYjRAGvoQjRizN_EXsMREKeQCLcBGAs%2Fs1600%2Fmern%252Bstack%252Bdevelopment.png&f=1&nofb=1"
-              style="width: 100%;"
-            />
-          </div>
-        </div>
+  <!-- ACCORDION -->
+  <div class="accordion" id="accordionExample">
+    <!-- CARD -->
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+            aria-expanded="false" aria-controls="collapseOne">
+            WHAT IS JAVASCRIPT ?
+          </button>
+        </h2>
       </div>
 
-      <!-- CARD -->
-      <div class="card">
-        <div class="card-header" id="headingTwo">
-          <h2 class="mb-0">
-            <button
-              class="btn btn-link collapsed"
-              type="button"
-              data-toggle="collapse"
-              data-target="#collapseTwo"
-              aria-expanded="false"
-              aria-controls="collapseTwo"
-            >
-              Importing
-            </button>
-          </h2>
-        </div>
-        <div
-          id="collapseTwo"
-          class="collapse"
-          aria-labelledby="headingTwo"
-          data-parent="#accordionExample"
-        >
-          <div class="card-body">
-            <p>Show in Code</p>
-          </div>
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+        <div class="card-body">
+          <ul>
+            <li>High level, Interpreted Programming Language</li>
+            <li>
+              Conforms to the ECMAScript specification (ActionScript,
+              JavaScript, JScript)
+            </li>
+            <li>
+              Runs on the Client/Browser ((as well as on the server
+              (Node.js)))
+            </li>
+          </ul>
+
+          <img
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F2.bp.blogspot.com%2F-cJrZfbVrH-0%2FWtT7O9CyTEI%2FAAAAAAAAGZw%2FznD9Yxlf5VYjRAGvoQjRizN_EXsMREKeQCLcBGAs%2Fs1600%2Fmern%252Bstack%252Bdevelopment.png&f=1&nofb=1"
+            style="width: 100%;" />
         </div>
       </div>
+    </div>
 
-      <!-- CARD -->
-      <div class="card">
-        <div class="card-header" id="headingThree">
-          <h2 class="mb-0">
-            <button
-              class="btn btn-link collapsed"
-              type="button"
-              data-toggle="collapse"
-              data-target="#collapseThree"
-              aria-expanded="false"
-              aria-controls="collapseThree"
-            >
-              Logging output & Console
-            </button>
-          </h2>
+    <!-- CARD -->
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+            aria-expanded="false" aria-controls="collapseTwo">
+            Importing
+          </button>
+        </h2>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+        <div class="card-body">
+          <p>Show in Code</p>
         </div>
-        <div
-          id="collapseThree"
-          class="collapse"
-          aria-labelledby="headingThree"
-          data-parent="#accordionExample"
-        >
-          <div class="card-body">
-            <code>
+      </div>
+    </div>
+
+    <!-- CARD -->
+    <div class="card">
+      <div class="card-header" id="headingThree">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+            aria-expanded="false" aria-controls="collapseThree">
+            Logging output & Console
+          </button>
+        </h2>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+        <div class="card-body">
+          <code>
               alert('Hello World'); // Do not use for debugging. Stops the
               script! <br />
               console.log('Hello World');<br />
@@ -121,34 +84,23 @@
               console.warn('This is a warning');<br />
               console.log(prompt("age"))
             </code>
-          </div>
         </div>
       </div>
+    </div>
 
-      <!-- CARD -->
-      <div class="card">
-        <div class="card-header" id="headingFour">
-          <h2 class="mb-0">
-            <button
-              class="btn btn-link collapsed"
-              type="button"
-              data-toggle="collapse"
-              data-target="#collapseFour"
-              aria-expanded="false"
-              aria-controls="collapseFour"
-            >
-              Declaring Variables (var, let, const)
-            </button>
-          </h2>
-        </div>
-        <div
-          id="collapseFour"
-          class="collapse"
-          aria-labelledby="headingFour"
-          data-parent="#accordionExample"
-        >
-          <div class="card-body">
-            <code>
+    <!-- CARD -->
+    <div class="card">
+      <div class="card-header" id="headingFour">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour"
+            aria-expanded="false" aria-controls="collapseFour">
+            Declaring Variables (var, let, const)
+          </button>
+        </h2>
+      </div>
+      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+        <div class="card-body">
+          <code>
               const name = "someone"<br />
               let age = 99;<br />
               //let can be re-assigned, const can not<br />
@@ -156,41 +108,30 @@
               age = 100;<br />
               console.log(age)<br />
             </code>
-          </div>
         </div>
       </div>
+    </div>
 
-      <!-- CARD -->
-      <div class="card">
-        <div class="card-header" id="headingFive">
-          <h2 class="mb-0">
-            <button
-              class="btn btn-link collapsed"
-              type="button"
-              data-toggle="collapse"
-              data-target="#collapseFive"
-              aria-expanded="false"
-              aria-controls="collapseFive"
-            >
-              Data Types
-            </button>
-          </h2>
-        </div>
-        <div
-          id="collapseFive"
-          class="collapse"
-          aria-labelledby="headingFive"
-          data-parent="#accordionExample"
-        >
-          <div class="card-body">
-            <ul>
-              <li>
-                String, Number, Boolean (6 falsies), Null, Undefined, Symbol,
-                Object
-              </li>
-              <li>Arrays, Functions, Objects</li>
-            </ul>
-            <code>
+    <!-- CARD -->
+    <div class="card">
+      <div class="card-header" id="headingFive">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive"
+            aria-expanded="false" aria-controls="collapseFive">
+            Data Types
+          </button>
+        </h2>
+      </div>
+      <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+        <div class="card-body">
+          <ul>
+            <li>
+              String, Number, Boolean (6 falsies), Null, Undefined, Symbol,
+              Object
+            </li>
+            <li>Arrays, Functions, Objects</li>
+          </ul>
+          <code>
               // ************ PRIMITIVE TYPES <br />
               const name = 'Adam';<br />
               const age = 37;<br />
@@ -228,34 +169,23 @@
               // Check type<br />
               console.log(typeof dummyFunc);<br />
             </code>
-          </div>
         </div>
       </div>
+    </div>
 
-      <!-- CARD -->
-      <div class="card">
-        <div class="card-header" id="headingSeven">
-          <h2 class="mb-0">
-            <button
-              class="btn btn-link collapsed"
-              type="button"
-              data-toggle="collapse"
-              data-target="#collapseSeven"
-              aria-expanded="false"
-              aria-controls="collapseSeven"
-            >
-              String Concatenation
-            </button>
-          </h2>
-        </div>
-        <div
-          id="collapseSeven"
-          class="collapse"
-          aria-labelledby="headingSeven"
-          data-parent="#accordionExample"
-        >
-          <div class="card-body">
-            <code>
+    <!-- CARD -->
+    <div class="card">
+      <div class="card-header" id="headingSeven">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven"
+            aria-expanded="false" aria-controls="collapseSeven">
+            String Concatenation
+          </button>
+        </h2>
+      </div>
+      <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+        <div class="card-body">
+          <code>
               let name = "wtvr"<br />
               let age = 99<br /><br />
 
@@ -268,34 +198,23 @@
               //************ Special Characters (\, \', \n, \\)<br />
               console.log('je m\'appelle wtvr')<br />
             </code>
-          </div>
         </div>
       </div>
+    </div>
 
-      <!-- CARD -->
-      <div class="card">
-        <div class="card-header" id="headingEight">
-          <h2 class="mb-0">
-            <button
-              class="btn btn-link collapsed"
-              type="button"
-              data-toggle="collapse"
-              data-target="#collapseEight"
-              aria-expanded="false"
-              aria-controls="collapseEight"
-            >
-              String Methods & Properties
-            </button>
-          </h2>
-        </div>
-        <div
-          id="collapseEight"
-          class="collapse"
-          aria-labelledby="headingEight"
-          data-parent="#accordionExample"
-        >
-          <div class="card-body">
-            <code>
+    <!-- CARD -->
+    <div class="card">
+      <div class="card-header" id="headingEight">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight"
+            aria-expanded="false" aria-controls="collapseEight">
+            String Methods & Properties
+          </button>
+        </h2>
+      </div>
+      <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+        <div class="card-body">
+          <code>
               let s = 'Hello World';<br />
               let val;<br /><br />
 
@@ -319,34 +238,23 @@
               console.log(s)<br />
               console.log(val)<br />
             </code>
-          </div>
         </div>
       </div>
+    </div>
 
-      <!-- CARD -->
-      <div class="card">
-        <div class="card-header" id="headingNine">
-          <h2 class="mb-0">
-            <button
-              class="btn btn-link collapsed"
-              type="button"
-              data-toggle="collapse"
-              data-target="#collapseNine"
-              aria-expanded="false"
-              aria-controls="collapseNine"
-            >
-              Array Methods & Properties
-            </button>
-          </h2>
-        </div>
-        <div
-          id="collapseNine"
-          class="collapse"
-          aria-labelledby="headingNine"
-          data-parent="#accordionExample"
-        >
-          <div class="card-body">
-            <code>
+    <!-- CARD -->
+    <div class="card">
+      <div class="card-header" id="headingNine">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseNine"
+            aria-expanded="false" aria-controls="collapseNine">
+            Array Methods & Properties
+          </button>
+        </h2>
+      </div>
+      <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+        <div class="card-body">
+          <code>
               const colors = ['black', 'white', 'red', 'blue'];<br />
               console.log(colors)<br /><br />
 
@@ -373,34 +281,23 @@
 
               console.log(colors);<br />
             </code>
-          </div>
         </div>
       </div>
+    </div>
 
-      <!-- CARD -->
-      <div class="card">
-        <div class="card-header" id="headingTen">
-          <h2 class="mb-0">
-            <button
-              class="btn btn-link collapsed"
-              type="button"
-              data-toggle="collapse"
-              data-target="#collapseTen"
-              aria-expanded="false"
-              aria-controls="collapseTen"
-            >
-              Arithmetic Operators
-            </button>
-          </h2>
-        </div>
-        <div
-          id="collapseTen"
-          class="collapse"
-          aria-labelledby="headingTen"
-          data-parent="#accordionExample"
-        >
-          <div class="card-body">
-            <code>
+    <!-- CARD -->
+    <div class="card">
+      <div class="card-header" id="headingTen">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTen"
+            aria-expanded="false" aria-controls="collapseTen">
+            Arithmetic Operators
+          </button>
+        </h2>
+      </div>
+      <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
+        <div class="card-body">
+          <code>
               // + , - , * , / , % , ++ , -- , **<br /><br />
 
               console.log(13-2)<br />
@@ -420,34 +317,23 @@
               console.log(y++)<br />
               console.log(y)<br />
             </code>
-          </div>
         </div>
       </div>
+    </div>
 
-      <!-- CARD -->
-      <div class="card">
-        <div class="card-header" id="headingEleven">
-          <h2 class="mb-0">
-            <button
-              class="btn btn-link collapsed"
-              type="button"
-              data-toggle="collapse"
-              data-target="#collapseEleven"
-              aria-expanded="false"
-              aria-controls="collapseEleven"
-            >
-              Object Literals
-            </button>
-          </h2>
-        </div>
-        <div
-          id="collapseEleven"
-          class="collapse"
-          aria-labelledby="headingEleven"
-          data-parent="#accordionExample"
-        >
-          <div class="card-body">
-            <code>
+    <!-- CARD -->
+    <div class="card">
+      <div class="card-header" id="headingEleven">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven"
+            aria-expanded="false" aria-controls="collapseEleven">
+            Object Literals
+          </button>
+        </h2>
+      </div>
+      <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionExample">
+        <div class="card-body">
+          <code>
               const person = { // an object is a collection of key-value pairS
               <br />
               firstName: 'Adam',<br />
@@ -489,34 +375,23 @@
 
               // console.table(users)<br />
             </code>
-          </div>
         </div>
       </div>
+    </div>
 
-      <!-- CARD -->
-      <div class="card">
-        <div class="card-header" id="headingTwelve">
-          <h2 class="mb-0">
-            <button
-              class="btn btn-link collapsed"
-              type="button"
-              data-toggle="collapse"
-              data-target="#collapseTwelve"
-              aria-expanded="false"
-              aria-controls="collapseTwelve"
-            >
-              Const Mutability
-            </button>
-          </h2>
-        </div>
-        <div
-          id="collapseTwelve"
-          class="collapse"
-          aria-labelledby="headingTwelve"
-          data-parent="#accordionExample"
-        >
-          <div class="card-body">
-            <code>
+    <!-- CARD -->
+    <div class="card">
+      <div class="card-header" id="headingTwelve">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwelve"
+            aria-expanded="false" aria-controls="collapseTwelve">
+            Const Mutability
+          </button>
+        </h2>
+      </div>
+      <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordionExample">
+        <div class="card-body">
+          <code>
               // *** Objects<br />
               const person = {<br />
               name: 'foulan',<br />
@@ -544,34 +419,23 @@
 
               console.log(numbers)<br />
             </code>
-          </div>
         </div>
       </div>
+    </div>
 
-      <!-- CARD -->
-      <div class="card">
-        <div class="card-header" id="headingThirteen">
-          <h2 class="mb-0">
-            <button
-              class="btn btn-link collapsed"
-              type="button"
-              data-toggle="collapse"
-              data-target="#collapseThirteen"
-              aria-expanded="false"
-              aria-controls="collapseThirteen"
-            >
-              Truthy & Falsy
-            </button>
-          </h2>
-        </div>
-        <div
-          id="collapseThirteen"
-          class="collapse"
-          aria-labelledby="headingThirteen"
-          data-parent="#accordionExample"
-        >
-          <div class="card-body">
-            <code>
+    <!-- CARD -->
+    <div class="card">
+      <div class="card-header" id="headingThirteen">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThirteen"
+            aria-expanded="false" aria-controls="collapseThirteen">
+            Truthy & Falsy
+          </button>
+        </h2>
+      </div>
+      <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordionExample">
+        <div class="card-body">
+          <code>
               // false, undefined, null, 0, "", NaN<br /><br />
 
               let test=null;<br /><br />
@@ -579,34 +443,23 @@
               console.log((test))<br />
               console.log(Boolean(test))<br />
             </code>
-          </div>
         </div>
       </div>
+    </div>
 
-      <!-- CARD -->
-      <div class="card">
-        <div class="card-header" id="headingFifteen">
-          <h2 class="mb-0">
-            <button
-              class="btn btn-link collapsed"
-              type="button"
-              data-toggle="collapse"
-              data-target="#collapseFifteen"
-              aria-expanded="false"
-              aria-controls="collapseFifteen"
-            >
-              Comparison operators
-            </button>
-          </h2>
-        </div>
-        <div
-          id="collapseFifteen"
-          class="collapse"
-          aria-labelledby="headingFifteen"
-          data-parent="#accordionExample"
-        >
-          <div class="card-body">
-            <code>
+    <!-- CARD -->
+    <div class="card">
+      <div class="card-header" id="headingFifteen">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFifteen"
+            aria-expanded="false" aria-controls="collapseFifteen">
+            Comparison operators
+          </button>
+        </h2>
+      </div>
+      <div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen" data-parent="#accordionExample">
+        <div class="card-body">
+          <code>
               // = assigns a value to a variable*<br /><br />
 
               // == compares the value of the variables<br /><br />
@@ -619,34 +472,23 @@
 
               // !== compares the inequality based on value and type<br /><br />
             </code>
-          </div>
         </div>
       </div>
+    </div>
 
-      <!-- CARD -->
-      <div class="card">
-        <div class="card-header" id="headingFourteen">
-          <h2 class="mb-0">
-            <button
-              class="btn btn-link collapsed"
-              type="button"
-              data-toggle="collapse"
-              data-target="#collapseFourteen"
-              aria-expanded="false"
-              aria-controls="collapseFourteen"
-            >
-              Logical Operators
-            </button>
-          </h2>
-        </div>
-        <div
-          id="collapseFourteen"
-          class="collapse"
-          aria-labelledby="headingFourteen"
-          data-parent="#accordionExample"
-        >
-          <div class="card-body">
-            <code>
+    <!-- CARD -->
+    <div class="card">
+      <div class="card-header" id="headingFourteen">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFourteen"
+            aria-expanded="false" aria-controls="collapseFourteen">
+            Logical Operators
+          </button>
+        </h2>
+      </div>
+      <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordionExample">
+        <div class="card-body">
+          <code>
               // ********** X && Y<br />
               // Returns first value if falsy<br />
               console.log( 0 && 5 )<br /><br />
@@ -655,34 +497,23 @@
               // Returns first value if truthy<br />
               console.log( 0 && 5 )<br />
             </code>
-          </div>
         </div>
       </div>
+    </div>
 
-      <!-- CARD -->
-      <div class="card">
-        <div class="card-header" id="headingSixteen">
-          <h2 class="mb-0">
-            <button
-              class="btn btn-link collapsed"
-              type="button"
-              data-toggle="collapse"
-              data-target="#collapseSixteen"
-              aria-expanded="false"
-              aria-controls="collapseSixteen"
-            >
-              Loops
-            </button>
-          </h2>
-        </div>
-        <div
-          id="collapseSixteen"
-          class="collapse"
-          aria-labelledby="headingSixteen"
-          data-parent="#accordionExample"
-        >
-          <div class="card-body">
-            <code>
+    <!-- CARD -->
+    <div class="card">
+      <div class="card-header" id="headingSixteen">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSixteen"
+            aria-expanded="false" aria-controls="collapseSixteen">
+            Loops
+          </button>
+        </h2>
+      </div>
+      <div id="collapseSixteen" class="collapse" aria-labelledby="headingSixteen" data-parent="#accordionExample">
+        <div class="card-body">
+          <code>
               // ********************** For<br />
               for (let i = 1; i <= 10; i++) {<br />
               console.log(`For Loop Number: ${i}`);<br />
@@ -713,34 +544,23 @@
               console.log(numbers[i]);<br /><br />
               }<br />
             </code>
-          </div>
         </div>
       </div>
+    </div>
 
-      <!-- CARD -->
-      <div class="card">
-        <div class="card-header" id="headingSeventeen">
-          <h2 class="mb-0">
-            <button
-              class="btn btn-link collapsed"
-              type="button"
-              data-toggle="collapse"
-              data-target="#collapseSeventeen"
-              aria-expanded="false"
-              aria-controls="collapseSeventeen"
-            >
-              Conditionals
-            </button>
-          </h2>
-        </div>
-        <div
-          id="collapseSeventeen"
-          class="collapse"
-          aria-labelledby="headingSeventeen"
-          data-parent="#accordionExample"
-        >
-          <div class="card-body">
-            <code>
+    <!-- CARD -->
+    <div class="card">
+      <div class="card-header" id="headingSeventeen">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeventeen"
+            aria-expanded="false" aria-controls="collapseSeventeen">
+            Conditionals
+          </button>
+        </h2>
+      </div>
+      <div id="collapseSeventeen" class="collapse" aria-labelledby="headingSeventeen" data-parent="#accordionExample">
+        <div class="card-body">
+          <code>
               // **** Simple If/Else Statement<br />
               // const x = 30;<br /><br />
 
@@ -771,34 +591,23 @@
               red";<br />
               // console.log(`Color ${colorQualified}!`);<br />
             </code>
-          </div>
         </div>
       </div>
+    </div>
 
-      <!-- CARD -->
-      <div class="card">
-        <div class="card-header" id="headingEighteen">
-          <h2 class="mb-0">
-            <button
-              class="btn btn-link collapsed"
-              type="button"
-              data-toggle="collapse"
-              data-target="#collapseEighteen"
-              aria-expanded="false"
-              aria-controls="collapseEighteen"
-            >
-              Functions
-            </button>
-          </h2>
-        </div>
-        <div
-          id="collapseEighteen"
-          class="collapse"
-          aria-labelledby="headingEighteen"
-          data-parent="#accordionExample"
-        >
-          <div class="card-body">
-            <code>
+    <!-- CARD -->
+    <div class="card">
+      <div class="card-header" id="headingEighteen">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEighteen"
+            aria-expanded="false" aria-controls="collapseEighteen">
+            Functions
+          </button>
+        </h2>
+      </div>
+      <div id="collapseEighteen" class="collapse" aria-labelledby="headingEighteen" data-parent="#accordionExample">
+        <div class="card-body">
+          <code>
               function greet(x = 3) { return `Hello ${x}`; } <br />
               console.log(greet('a aa')); <br /><br />
 
@@ -807,11 +616,11 @@
 
               greet('Adam');<br />
             </code>
-          </div>
         </div>
       </div>
+    </div>
 
-      <!-- CARD
+    <!-- CARD
       <div class="card">
         <div class="card-header" id="headingThirteen">
           <h2 class="mb-0">
@@ -839,54 +648,39 @@
         </div>
       </div> -->
 
-      <!-- CARD -->
-      <div class="card">
-        <div class="card-header" id="headingXXXX">
-          <h2 class="mb-0">
-            <button
-              class="btn btn-link collapsed"
-              type="button"
-              data-toggle="collapse"
-              data-target="#collapseXXXX"
-              aria-expanded="false"
-              aria-controls="collapseXXXX"
-            >
-              To Be Continued ...
-            </button>
-          </h2>
-        </div>
-        <div
-          id="collapseXXXX"
-          class="collapse"
-          aria-labelledby="headingXXXX"
-          data-parent="#accordionExample"
-        >
-          <div class="card-body">
-            <code>
+    <!-- CARD -->
+    <div class="card">
+      <div class="card-header" id="headingXXXX">
+        <h2 class="mb-0">
+          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseXXXX"
+            aria-expanded="false" aria-controls="collapseXXXX">
+            To Be Continued ...
+          </button>
+        </h2>
+      </div>
+      <div id="collapseXXXX" class="collapse" aria-labelledby="headingXXXX" data-parent="#accordionExample">
+        <div class="card-body">
+          <code>
               // Loading ...
             </code>
-          </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- IMPORTING SCRIPTS  -->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-    <!-- THE JS FILE WE RE WORKING ON -->
-    <script src="./script.js"></script>
-  </body>
+  <!-- IMPORTING SCRIPTS  -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <!-- THE JS FILE WE RE WORKING ON -->
+  <script type="module" src="./data.js"></script>
+  <script type="module" src="./script.js"></script>
+</body>
+
 </html>
